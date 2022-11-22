@@ -1,0 +1,20 @@
+:root {
+    --blue: #232323;
+    --textColor0: #ffffff;
+}
+
+body {
+    background-color: var(--blue);
+    color: var(--textColor0);
+}
+
+.leftExtentionsMenu {
+
+    background-color: #ffffff;
+    color: #232323;
+    width: 200px;
+    position: absolute;
+    height: 800px;
+    margin-top: 0;
+
+}
