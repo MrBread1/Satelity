@@ -10,11 +10,19 @@ body {
 
 .leftExtentionsMenu {
 
-    background-color: #ffffff;
+    background-color: #6b6b6b;
     color: #232323;
     width: 200px;
     position: absolute;
-    height: 800px;
+    height: 900px;
     margin-top: 0;
+    top: -100px;
 
+}
+a{
+    text-decoration: none;
+    color: var(--textColor0);
+}
+a:hover{
+    color: black;
 }
