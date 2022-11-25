@@ -1,23 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Lato&family=Nunito+Sans&family=Roboto&family=Roboto+Mono:wght@500&family=VT323&display=swap');
+
 :root {
-    --blue: #232323;
-    --textColor0: #ffffff;
+    --textColor0: #232323;
+    --textColor1: #232323a8;
+    --blue: #ffffff;
 }
 
 body {
     background-color: var(--blue);
     color: var(--textColor0);
 }
-h1{
+
+h1 {
     text-align: center;
     font-size: 64px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 5.5px;
+    line-height: 48px;
+
 }
-h4{
-    
-    color: var(--textColor0);
-    font-size: 20px;
-    
-    
+
+h4 {
+    font-size: 16px;
+    margin: 25px;
 }
+
 a:link {
-    text-decoration: none;
-  }
+    text-decoration: none !important;
+    cursor: pointer;
+    color: var(--textColor1);
+
+}
+
+a:hover {
+    border-bottom: var(--textColor1) 3px solid;
+
+    transition: 1s;
+}
+
+.menu {
+    border: none;
+    background-color: transparent;
+
+}
+
+.menu span {
+    font-size: 1em;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.downNavMenu {
+    background: url(/photos/downNavBar.jpg);
+    height: 400px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    letter-spacing: 4.5px;
+    line-height: 48px;
+    padding-top: 80PX;
+
+}
+
+a span {
+    font-size: 64px;
+}
