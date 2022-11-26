@@ -199,3 +199,33 @@ a.link {
     line-height: 60px;
     text-shadow: 0 0 3px #000000, 0 0 5px #ffffff65;
 }
+
+.top {
+    margin-top: 700px;
+}
+
+h2.header {
+    font-size: 10px;
+    border: salmon 1px solid;
+    background-color: salmon;
+    color: var(--blue);
+    font-weight: 600;
+}
+
+h6 {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.cards {
+    height: 550px;
+    background-color: #81818117;
+
+}
+
+.card {
+    height: 550px;
+    background-color: #81818121;
+}
