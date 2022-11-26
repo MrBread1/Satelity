@@ -184,7 +184,7 @@ a.link {
 
 /*kontent css*/
 .content {
-    background: url(/landingPage/html/photos/1925895555.svg);
+    background: url(./landingPage/html/photos/1925895555.svg);
     width: 100%;
 
     height: 90vh;
@@ -217,7 +217,7 @@ a.link {
         left: -100px;
         top: 200px;
         font-size: 40px;
-        line-height:45px;
+        line-height: 45px;
     }
 
 }
