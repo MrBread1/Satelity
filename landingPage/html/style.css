@@ -203,6 +203,13 @@ a.link {
     text-shadow: 0 0 3px #000000, 0 0 5px #ffffff65;
 }
 
+@media screen and (max-width:600px) {
+    .textContent {
+        top: 300px;
+        font-size: 32px;
+    }
+}
+
 .top {
     margin-top: 700px;
 
