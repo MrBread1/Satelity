@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Lato&family=Nunito+Sans&family=Roboto&family=Roboto+Mono:wght@500&family=VT323&display=swap');
 
 :root {
-    --textColor0: #232323;/*hex tekstu ciemniejszy*/
-    --textColor1: #232323a8;/*hex tekstu jaśniejszy*/
-    --blue: #ffffff;/*biały dla tekstu*/
+    --textColor0: #232323;
+    /*hex tekstu ciemniejszy*/
+    --textColor1: #232323a8;
+    /*hex tekstu jaśniejszy*/
+    --blue: #ffffff;
+    /*biały dla tekstu*/
 }
 
 body {
@@ -221,11 +224,33 @@ h6 {
 
 .cards {
     height: 550px;
-    background-color: #81818117;
-
+    background-color: #77777717;
+    border: none;
 }
 
 .card {
-    height: 550px;
-    background-color: #81818121;
+    height: calc(auto+9000px);
+    background-color: #c7c7c721;
+    border: none;
+}
+
+.cardsPhotos {
+    width: 90%;
+    height: 300px;
+}
+
+@media screen and(max-height: 990px) {
+    .cardsPhotos {
+        height: 500xp;
+    }
+
+}
+
+h2.h2Cards {
+    font-size: 24px;
+}
+
+h3.h3Cards {
+    font-size: 16px;
+    text-align: center;
 }
