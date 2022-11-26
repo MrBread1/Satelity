@@ -205,6 +205,19 @@ a.link {
 
 .top {
     margin-top: 700px;
+
+}
+
+@media screen and(max-width: 790px) {
+    .top {
+        margin-top: 20px;
+    }
+
+    .textContent {
+        left: 0px;
+        top: 0;
+    }
+
 }
 
 h2.header {
@@ -239,7 +252,7 @@ h6 {
     height: 300px;
 }
 
-@media screen and(max-height: 990px) {
+@media screen and(max-width: 990px) {
     .cardsPhotos {
         height: 500xp;
     }
