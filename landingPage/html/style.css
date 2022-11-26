@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Lato&family=Nunito+Sans&family=Roboto&family=Roboto+Mono:wght@500&family=VT323&display=swap');
 
 :root {
-    --textColor0: #232323;
-    --textColor1: #232323a8;
-    --blue: #ffffff;
+    --textColor0: #232323;/*hex tekstu ciemniejszy*/
+    --textColor1: #232323a8;/*hex tekstu jaśniejszy*/
+    --blue: #ffffff;/*biały dla tekstu*/
 }
 
 body {
