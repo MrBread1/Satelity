@@ -181,3 +181,57 @@ a.link {
     background-color: greenyellow;
     text-align: center;
 }
+
+.color1 {
+    background-color: #bed7ec;
+}
+
+.color2 {
+    background-color: #c6e0b6;
+}
+
+.color3 {
+    background-color: #fee3a0;
+}
+
+.color4 {
+    background-color: #d6c0ca;
+}
+
+.color5 {
+    background-color: #e9aeae;
+}
+
+.color0 {
+    background-color: #3aff45;
+
+}
+
+table {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 450px) {
+    table {
+        font-size: 10px;
+    }
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.center12 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 64px;
+    color: var(--blue);
+}
+
+.top {
+    margin-top: 150px;
+}
