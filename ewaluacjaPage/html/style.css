@@ -223,6 +223,12 @@ img {
     height: auto;
 }
 
+@media screen and (max-width: 600px) {
+    .center12 {
+        color: red;
+    }
+}
+
 .center12 {
     position: absolute;
     top: 55%;
@@ -234,4 +240,8 @@ img {
 
 .top {
     margin-top: 150px;
+}
+
+.top2 {
+    margin-top: 50px;
 }
