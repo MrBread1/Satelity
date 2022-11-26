@@ -12,7 +12,7 @@
 body {
     background-color: var(--blue);
     color: var(--textColor0);
-    overflow-x: none;
+    overflow-x: hidden;
 
 }
 
