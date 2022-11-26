@@ -6,12 +6,11 @@
     --blue: #ffffff;
 }
 
-
-
 body {
     background-color: var(--blue);
     color: var(--textColor0);
     overflow-x: none;
+    height: 10000px;
 }
 
 h1 {
@@ -123,8 +122,6 @@ h2 {
 }
 
 /*side menu**/
-
-
 .sidenav {
     height: 100%;
     width: 0;
@@ -180,4 +177,25 @@ a.link {
     border: greenyellow 3px solid;
     background-color: greenyellow;
     text-align: center;
+}
+
+/*kontent css*/
+.content {
+    background: url(/landingPage/photos/1925895555.svg);
+    width: 100%;
+
+    height: 90vh;
+    background-size: cover;
+}
+
+.textContent {
+    position: relative;
+    left: 15%;
+    top: 45vh;
+    color: var(--blue);
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.55px;
+    line-height: 60px;
+    text-shadow: 0 0 3px #000000, 0 0 5px #ffffff65;
 }
