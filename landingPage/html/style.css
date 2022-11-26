@@ -193,8 +193,8 @@ a.link {
 
 .textContent {
     position: relative;
-    left: 15%;
-    top: 45vh;
+    left: 250px;
+    top: 475px;
     color: var(--blue);
     font-size: 48px;
     font-family: 'Montserrat', sans-serif;
@@ -208,14 +208,16 @@ a.link {
 
 }
 
-@media screen and(max-width: 790px) {
+@media screen and (max-width: 790px) {
     .top {
-        margin-top: 20px;
+        margin-top: 300px;
     }
 
     .textContent {
-        left: 0px;
-        top: 0;
+        left: -100px;
+        top: 200px;
+        font-size: 40px;
+        line-height:45px;
     }
 
 }
