@@ -2,18 +2,16 @@
 
 :root {
     --textColor0: #232323;
-    /*hex tekstu ciemniejszy*/
     --textColor1: #232323a8;
-    /*hex tekstu jaśniejszy*/
     --blue: #ffffff;
-    /*biały dla tekstu*/
 }
+
+
 
 body {
     background-color: var(--blue);
     color: var(--textColor0);
-    overflow-x: hidden;
-
+    overflow-x: none;
 }
 
 h1 {
@@ -45,7 +43,7 @@ a:link {
 }
 
 a:hover {
-    border-bottom: var(--textColor1) 2px solid;
+    border-bottom: var(--textColor1) 3px solid;
 
     transition: 1s;
 }
@@ -83,7 +81,7 @@ a:hover {
 }
 
 .downNavMenu {
-    background: url(/html/photos/downNavBar.jpg);
+    background: url(/photos/downNavBar.jpg);
     height: 350px;
 
 }
@@ -125,6 +123,8 @@ h2 {
 }
 
 /*side menu**/
+
+
 .sidenav {
     height: 100%;
     width: 0;
@@ -181,127 +181,10 @@ a.link {
     background-color: greenyellow;
     text-align: center;
 }
-
-/*kontent css*/
-.content {
-    background: url(https://raw.githubusercontent.com/MrBread1/Satelity/2017d2f6e973323a43c7e9466e2fbfac414fb420/landingPage/html/1925895555.svg);
-    width: 100%;
-
-    height: 900px;
-    background-size: cover;
-}
-
-.textContent {
-    position: relative;
-    left: 250px;
-    top: 475px;
-    color: var(--blue);
-    font-size: 48px;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 0.55px;
-    line-height: 60px;
-    text-shadow: 0 0 3px #000000, 0 0 5px #ffffff65;
-}
-
-@media screen and (max-width:600px) {
-    .textContent {
-        top: 300px;
-        font-size: 32px;
-    }
-}
-
-.top {
-    margin-top: 700px;
-
-}
-
-@media screen and (max-width: 900px) {
-    .top {
-        margin-top: 300px;
-    }
-
-    .textContent {
-        left: -100px;
-        top: 200px;
-        font-size: 40px;
-        line-height: 45px;
-    }
-
-}
-
-@media screen and (max-width: 1024px) {
-    .content {
-        height: 600px;
-    }
-
-}
-
-@media screen and (max-width: 768px) {
-    .content {
-        height: 700px;
-    }
-
-    .textContent {
-        top: 100px;
-    }
-}
-
-@media screen and (max-width: 1440px) {
-    .content {
-        height: 700px;
-    }
-
-    .textContent {
-        top: 100px;
-    }
-
-}
-
-h2.header {
-    font-size: 10px;
-    border: salmon 1px solid;
-    background-color: salmon;
-    color: var(--blue);
-    font-weight: 600;
-}
-
-h6 {
-    font-size: 16px;
-    text-align: center;
-    font-weight: 400;
-    line-height: 26px;
-}
-
-.cards {
-    height: 550px;
-    background-color: #77777717;
-    border: none;
-}
-
-.card {
-    height: calc(auto+9000px);
-    background-color: #c7c7c721;
-    border: none;
-}
-
-.cardsPhotos {
-    width: 90%;
-    height: 300px;
-}
-
-@media screen and(max-width: 990px) {
-    .cardsPhotos {
-        height: 500xp;
-    }
-
-}
-
-h2.h2Cards {
-    font-size: 24px;
-}
-
-h3.h3Cards {
-    font-size: 16px;
-    text-align: center;
-    width:;
+.center {
+  text-align: center;
+  border: 3px solid green;
+  padding-top:100px;
+  padding-bottom:100px;
+  color:white;
 }
