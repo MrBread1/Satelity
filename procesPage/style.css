@@ -181,10 +181,4 @@ a.link {
     background-color: greenyellow;
     text-align: center;
 }
-.center {
-  text-align: center;
-  border: 3px solid green;
-  padding-top:100px;
-  padding-bottom:100px;
-  color:white;
-}
+
