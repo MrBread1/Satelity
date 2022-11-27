@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Lato&family=Nunito+Sans&family=Roboto&family=Roboto+Mono:wght@500&family=VT323&display=swap');
+
+:root {
+    --textColor0: #232323;
+    /*hex tekstu ciemniejszy*/
+    --textColor1: #232323a8;
+    /*hex tekstu jaśniejszy*/
+    --blue: #ffffff;
+    /*biały dla tekstu*/
+}
+
+body {
+    background-color: var(--blue);
+    color: var(--textColor0);
+    overflow-x: hidden;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 64px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 5.5px;
+    line-height: 48px;
+
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+h4 {
+    font-size: 16px;
+    margin: 25px;
+}
+
+a:link {
+    text-decoration: none !important;
+    cursor: pointer;
+    color: var(--textColor1);
+
+}
+
+a:hover {
+    border-bottom: var(--textColor1) 3px solid;
+
+    transition: 1s;
+}
+
+.menu {
+    border: none;
+    background-color: transparent;
+    visibility: hidden;
+
+}
+
+/*hamburger shows*/
+@media screen and (max-width: 768px) {
+    .menu {
+        visibility: visible;
+        position: fixed;
+        top: 20px;
+    }
+
+    /*main nav bar destroying*/
+    div.container-sm.mt-3.center {
+        display: none;
+    }
+}
+
+.menu span {
+    font-size: 1em;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.downNavMenu {
+    background: url(/html/photos/downNavBar.jpg);
+    height: 350px;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 4.5px;
+    line-height: 48px;
+    padding-top: 80PX;
+    top: -50px;
+
+}
+
+.mediaImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 48px;
+
+}
+
+.mediaH6 {
+    text-align: center;
+    float: center;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    .downNavMenu {
+        height: 500px;
+    }
+
+}
+
+/*side menu**/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+a.link {
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.box {
+    width: 100%;
+    height: 400px;
+    border: greenyellow 3px solid;
+    background-color: greenyellow;
+    text-align: center;
+}
+
+/*kontent css*/
+.content {
+    background: url(https://raw.githubusercontent.com/MrBread1/Satelity/2017d2f6e973323a43c7e9466e2fbfac414fb420/landingPage/html/1925895555.svg);
+    width: 100%;
+
+    height: 900px;
+    background-size: cover;
+}
+
+.textContent {
+    position: relative;
+    left: 250px;
+    top: 475px;
+    color: var(--blue);
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.55px;
+    line-height: 60px;
+    text-shadow: 0 0 3px #000000, 0 0 5px #ffffff65;
+}
+
+@media screen and (max-width:600px) {
+    .textContent {
+        top: 300px;
+        font-size: 32px;
+    }
+}
+
+.top {
+    margin-top: 700px;
+
+}
+
+@media screen and (max-width: 900px) {
+    .top {
+        margin-top: 300px;
+    }
+
+    .textContent {
+        left: -100px;
+        top: 200px;
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .content {
+        height: 600px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        height: 700px;
+    }
+
+    .textContent {
+        top: 100px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .content {
+        height: 700px;
+    }
+
+    .textContent {
+        top: 100px;
+    }
+
+}
+
+h2.header {
+    font-size: 10px;
+    border: salmon 1px solid;
+    background-color: salmon;
+    color: var(--blue);
+    font-weight: 600;
+}
+
+h6 {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.cards {
+    height: 550px;
+    background-color: #77777717;
+    border: none;
+}
+
+.card {
+    height: calc(auto+9000px);
+    background-color: #c7c7c721;
+    border: none;
+}
+
+.cardsPhotos {
+    width: 90%;
+    height: 300px;
+}
+
+@media screen and(max-width: 990px) {
+    .cardsPhotos {
+        height: 500xp;
+    }
+
+}
+
+h2.h2Cards {
+    font-size: 24px;
+}
+
+h3.h3Cards {
+    font-size: 16px;
+    text-align: center;
+}
