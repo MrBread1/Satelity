@@ -245,3 +245,15 @@ img {
 .top2 {
     margin-top: 50px;
 }
+
+.centerText {
+    text-align: center;
+    font-size: 64px;
+    color: var(--blue);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    background-image: url(/ewaluacjaPage/html/715745701-svg.svg);
+    background-size: cover;
+    margin: 0;
+}
