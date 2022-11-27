@@ -45,7 +45,7 @@ a:link {
 }
 
 a:hover {
-    border-bottom: var(--textColor1) 3px solid;
+    border-bottom: var(--textColor1) 2px solid;
 
     transition: 1s;
 }
