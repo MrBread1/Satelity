@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Lato&family=Nunito+Sans&family=Roboto&family=Roboto+Mono:wght@500&family=VT323&display=swap');
+
+:root {
+    --textColor0: #232323;
+    --textColor1: #232323a8;
+    --blue: #ffffff;
+}
+
+
+
+body {
+    background-color: var(--blue);
+    color: var(--textColor0);
+    overflow-x: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 64px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 5.5px;
+    line-height: 48px;
+
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+h4 {
+    font-size: 16px;
+    margin: 25px;
+}
+
+a:link {
+    text-decoration: none !important;
+    cursor: pointer;
+    color: var(--textColor1);
+
+}
+
+a:hover {
+    border-bottom: var(--textColor1) 3px solid;
+
+    transition: 1s;
+}
+
+.menu {
+    border: none;
+    background-color: transparent;
+    visibility: hidden;
+
+}
+
+/*hamburger shows*/
+@media screen and (max-width: 768px) {
+    .menu {
+        visibility: visible;
+        position: fixed;
+        top: 20px;
+    }
+
+    /*main nav bar destroying*/
+    div.container-sm.mt-3.center {
+        display: none;
+    }
+}
+
+.menu span {
+    font-size: 1em;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.downNavMenu {
+    background: url(/photos/downNavBar.jpg);
+    height: 350px;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 4.5px;
+    line-height: 48px;
+    padding-top: 80PX;
+    top: -50px;
+
+}
+
+.mediaImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 48px;
+
+}
+
+.mediaH6 {
+    text-align: center;
+    float: center;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    .downNavMenu {
+        height: 500px;
+    }
+
+}
+
+/*side menu**/
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+a.link {
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+#title1{
+	
+	width:100%;
+	height: 80px;
+	margin-top : 10%;
+	background-color: #c5c9c6;
+	font-size: 36px;
+	text-align: center;
+}
+.content {
+	margin-left:7.5%;
+	margin-right: 2.5%;
+	width: 60%;
+	margin-top: 5%;
+	height: 280px;
+	text-align: left;
+	font-size: 20px;
+	background-color: #c5c9c6;
+	float: left;
+}
+.img
+{
+	width: 20%;
+	margin-right: 10%;
+	
+	margin-top: 5%;
+	height: 280px;
+	background-color: #c5c9c6;
+	float: left;
+}
+#przycisk{
+	width: 40%;
+	height: 10%;
+	background-color: #707070;
+	font-size: 20px;
+	margin-left: 2%;
+	color: white;
+} 
+#przycisk.hover{
+	
+	background-color: #4e4f4f;
+	color: #a62205;
+	cursor: pointer;
+}
+.box{
+	margin-left: 10%;
+	width: 80%;
+    height: 500px;
+    text-align: center;
+	background-color: #c5c9c6;
+}
+#foot{
+	margin-top:50px;
+	width: 100%;
+	height: 100px;
+	background-color: red;
+	font-size: 20px;
+}
+#baner{
+	width:100%;
+	height: 800px;
+	color	: black;
+	
+	background-image: url("zarowka.jpeg");
+	background-size: 100%;
+	padding-top: 200px;
+	padding-left: 100px;
+	background-repeat: no-repeat;
+}
+@media screen and (max-width: 768px){
+	#baner{	
+		max-height: 300px;
+		padding-left: 50px;
+		padding-top:100px;
+	}
+	
+}
+@media screen and (max-width: 768px){
+	#title1{
+		
+		
+		height: 60px;
+		font-size: 30px;
+		
+		
+	}
+@media screen and (max-width: 768px){
+	.box{
+		margin-top: 50px;
+		min-height: 100px;
+		max-height: 300px;
+		
+	}
+	
+}
+@media screen and (max-width: 768px){
+	.content{
+		margin-left: 5%;
+		margin-right: 0%;
+		width: 65%;
+		font-size: 10px;
+		
+		max-height: 300px;
+	}
+	
+}
+@media screen and (max-width: 768px){
+	.img{
+		margin-right: 0px;
+		width:30%;
+		min-height:100px;
+		max-height: 300px;
+	}
+	
+}
+@media screen and (max-width: 768px){img {	
+	
+		max-height: 300px;
+}
+}
