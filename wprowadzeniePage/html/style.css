@@ -151,6 +151,7 @@ a.link {
     text-decoration: none;
     color: rgb(41, 41, 41);
 }
+
 .sidenav a:hover {
     color: #f1f1f1;
 }
@@ -172,123 +173,79 @@ a.link {
         font-size: 18px;
     }
 }
-#title1{
-	
-	width:100%;
-	height: 80px;
-	margin-top : 10%;
-	background-color: #c5c9c6;
-	font-size: 36px;
-	text-align: center;
-}
-.content {
-	margin-left:7.5%;
-	margin-right: 2.5%;
-	width: 60%;
-	margin-top: 5%;
-	height: 280px;
-	text-align: left;
-	font-size: 20px;
-	background-color: #c5c9c6;
-	float: left;
-}
-.img
-{
-	width: 20%;
-	margin-right: 10%;
-	
-	margin-top: 5%;
-	height: 280px;
-	background-color: #c5c9c6;
-	float: left;
-}
-#przycisk{
-	width: 40%;
-	height: 10%;
-	background-color: #707070;
-	font-size: 20px;
-	margin-left: 2%;
-	color: white;
-} 
-#przycisk.hover{
-	
-	background-color: #4e4f4f;
-	color: #a62205;
-	cursor: pointer;
-}
-.box{
-	margin-left: 10%;
-	width: 80%;
-    height: 500px;
+
+#title1 {
+
+    width: 100%;
+    height: 80px;
+    margin-top: 10%;
+    background-color: #c5c9c6;
+    font-size: 36px;
     text-align: center;
-	background-color: #c5c9c6;
 }
-#foot{
-	margin-top:50px;
-	width: 100%;
-	height: 100px;
-	background-color: red;
-	font-size: 20px;
+
+
+/**/
+.centerText {
+    text-align: center;
+    font-size: 64px;
+    color: var(--blue);
+    padding-top: 300px;
+    padding-bottom: 300px;
+    height: auto;
+    width: 100%;
+    background-image: url(https://github.com/MrBread1/Satelity/blob/main/wprowadzeniePage/html/zarowka.jpeg?raw=true);
+    background-size: cover;
+    margin: 0;
 }
-#baner{
-	width:100%;
-	height: 800px;
-	color	: black;
-	
-	background-image: url("zarowka.jpeg");
-	background-size: 100%;
-	padding-top: 200px;
-	padding-left: 100px;
-	background-repeat: no-repeat;
+
+.greyBox {
+    background-color: #f8f8f8;
+    padding: 50px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.48px;
+    font-weight: 500;
 }
-@media screen and (max-width: 768px){
-	#baner{	
-		max-height: 300px;
-		padding-left: 50px;
-		padding-top:100px;
-	}
-	
+
+.greyBoxText {
+    font-size: 16px;
+    line-height: 26.5px;
+    letter-spacing: normal;
+    text-align: justify;
+    font-weight: 400;
 }
-@media screen and (max-width: 768px){
-	#title1{
-		
-		
-		height: 60px;
-		font-size: 30px;
-		
-		
-	}
-@media screen and (max-width: 768px){
-	.box{
-		margin-top: 50px;
-		min-height: 100px;
-		max-height: 300px;
-		
-	}
-	
+
+
+.redBox {
+    background-color: #dd7f85;
+    text-align: center;
+    color: var(--blue);
+    font-size: 10px;
+    line-height: 16.6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
-@media screen and (max-width: 768px){
-	.content{
-		margin-left: 5%;
-		margin-right: 0%;
-		width: 65%;
-		font-size: 10px;
-		
-		max-height: 300px;
-	}
-	
+
+.appleH2 {
+    font-size: 24px;
+    text-align: left;
+    line-height: 30px;
+    letter-spacing: 0.5px;
 }
-@media screen and (max-width: 768px){
-	.img{
-		margin-right: 0px;
-		width:30%;
-		min-height:100px;
-		max-height: 300px;
-	}
-	
-}
-@media screen and (max-width: 768px){img {	
-	
-		max-height: 300px;
-}
+
+.greyLinkBox {
+    padding: 10px;
+    background-color: #818181c7;
+    text-decoration: overline;
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.36px;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
