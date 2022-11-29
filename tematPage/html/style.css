@@ -198,12 +198,18 @@ a.link {
 
 .centerText {
     text-align: center;
-    font-size: 64px;
-    color: var(--blue);
+    font-size: 48px;
+    color: #e0bf5c;
+    letter-spacing: 0.5px;
+    line-height: 60px;
     padding-top: 100px;
     padding-bottom: 100px;
     width: 100%;
-    background-image: url(https://raw.githubusercontent.com/MrBread1/Satelity/511008c1c1328cb1cb5f023d10de037f94b692e1/ewaluacjaPage/html/715745701-svg.svg);
+    background-image: url(https://github.com/MrBread1/Satelity/blob/main/tematPage/html/img3.jpg?raw=true);
     background-size: cover;
     margin: 0;
+}
+
+.contentText {
+    text-align: center;
 }
