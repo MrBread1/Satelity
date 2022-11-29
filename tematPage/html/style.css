@@ -196,114 +196,14 @@ a.link {
     float: left;
 }
 
-.img {
-    width: 20%;
-    margin-right: 10%;
-
-    margin-top: 5%;
-    height: 280px;
-    background-color: #c5c9c6;
-    float: left;
-}
-
-#przycisk {
-    width: 40%;
-    height: 10%;
-    background-color: #707070;
-    font-size: 20px;
-    margin-left: 2%;
-    color: white;
-}
-
-#przycisk.hover {
-
-    background-color: #4e4f4f;
-    color: #a62205;
-    cursor: pointer;
-}
-
-.box {
-    margin-left: 10%;
-    width: 80%;
-    height: 500px;
+.centerText {
     text-align: center;
-    background-color: #c5c9c6;
-}
-
-#foot {
-    margin-top: 50px;
+    font-size: 64px;
+    color: var(--blue);
+    padding-top: 100px;
+    padding-bottom: 100px;
     width: 100%;
-    height: 100px;
-    background-color: red;
-    font-size: 20px;
+    background-image: url(https://raw.githubusercontent.com/MrBread1/Satelity/511008c1c1328cb1cb5f023d10de037f94b692e1/ewaluacjaPage/html/715745701-svg.svg);
+    background-size: cover;
+    margin: 0;
 }
-
-#baner {
-    width: 100%;
-    height: 800px;
-    color: black;
-
-    background-image: url("zarowka.jpeg");
-    background-size: 100%;
-    padding-top: 200px;
-    padding-left: 100px;
-    background-repeat: no-repeat;
-}
-
-@media screen and (max-width: 768px) {
-    #baner {
-        max-height: 300px;
-        padding-left: 50px;
-        padding-top: 100px;
-    }
-
-}
-
-@media screen and (max-width: 768px) {
-    #title1 {
-
-
-        height: 60px;
-        font-size: 30px;
-
-
-    }
-
-    @media screen and (max-width: 768px) {
-        .box {
-            margin-top: 50px;
-            min-height: 100px;
-            max-height: 300px;
-
-        }
-
-    }
-
-    @media screen and (max-width: 768px) {
-        .content {
-            margin-left: 5%;
-            margin-right: 0%;
-            width: 65%;
-            font-size: 10px;
-
-            max-height: 300px;
-        }
-
-    }
-
-    @media screen and (max-width: 768px) {
-        .img {
-            margin-right: 0px;
-            width: 30%;
-            min-height: 100px;
-            max-height: 300px;
-        }
-
-    }
-
-    @media screen and (max-width: 768px) {
-        img {
-
-            max-height: 300px;
-        }
-    }
